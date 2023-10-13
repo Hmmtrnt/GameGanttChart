@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="MonsterHunter" company="" webLink="http://" view-date="2023-09-25" view-index="0" gantt-divider-location="375" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="MonsterHunter" company="" webLink="http://" view-date="2023-10-19" view-index="0" gantt-divider-location="360" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
     <description>
         <![CDATA[CAPCOMに就職する作品予定表]]>
     </description>
     <view zooming-state="default:3" id="gantt-chart">
-        <field id="tpd3" name="名前" width="203" order="0"/>
-        <field id="tpd4" name="開始日" width="78" order="1"/>
-        <field id="tpd5" name="終了日" width="78" order="2"/>
+        <field id="tpd3" name="名前" width="195" order="0"/>
+        <field id="tpd4" name="開始日" width="75" order="1"/>
+        <field id="tpd5" name="終了日" width="75" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="color.recent">
             <![CDATA[#ffff00 #666666 #cccccc #33ffcc #ff0000 #999999 #3333ff #00cc00 #0000ff #6666ff]]>
