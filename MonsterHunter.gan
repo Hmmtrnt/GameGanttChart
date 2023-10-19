@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="MonsterHunter" company="" webLink="http://" view-date="2023-10-19" view-index="0" gantt-divider-location="360" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="MonsterHunter" company="" webLink="http://" view-date="2023-10-30" view-index="0" gantt-divider-location="396" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
     <description>
         <![CDATA[CAPCOMに就職する作品予定表]]>
     </description>
     <view zooming-state="default:3" id="gantt-chart">
-        <field id="tpd3" name="名前" width="195" order="0"/>
-        <field id="tpd4" name="開始日" width="75" order="1"/>
-        <field id="tpd5" name="終了日" width="75" order="2"/>
+        <field id="tpd3" name="名前" width="223" order="0"/>
+        <field id="tpd4" name="開始日" width="86" order="1"/>
+        <field id="tpd5" name="終了日" width="86" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="color.recent">
-            <![CDATA[#ffff00 #666666 #cccccc #33ffcc #ff0000 #999999 #3333ff #00cc00 #0000ff #6666ff]]>
+            <![CDATA[#ffff00 #ff0000 #f4f4f4 #666666 #cccccc #33ffcc #999999 #3333ff #00cc00 #0000ff]]>
         </option>
     </view>
     <view id="resource-table">
@@ -39,7 +39,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="プロトタイプ" color="#ffcc00" meeting="false" start="2023-09-25" duration="35" complete="46" thirdDate="2023-10-13" thirdDate-constraint="0" priority="4" expand="true">
+        <task id="0" name="プロトタイプ" color="#ffcc00" meeting="false" start="2023-09-25" duration="35" complete="46" thirdDate="2023-10-13" thirdDate-constraint="0" priority="4" expand="false">
             <task id="7" name="1仮のステージの設置" color="#ff0000" meeting="false" start="2023-09-25" duration="3" complete="100" thirdDate="2023-09-23" thirdDate-constraint="0" priority="4" expand="true"/>
             <task id="1" name="プレイヤー" color="#666666" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2023-09-27" duration="33" complete="50" thirdDate="2023-10-13" thirdDate-constraint="0" priority="4" expand="true">
                 <notes>
@@ -121,6 +121,7 @@
                     <![CDATA[形だけでも完成させる]]>
                 </notes>
             </task>
+            <task id="42" name="シーン追加" color="#ffff00" meeting="false" start="2023-11-01" duration="3" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
             <task id="28" name="プレイヤー" color="#666666" meeting="false" start="2023-10-30" duration="28" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[ステータスの値などをざっと調整する]]>
@@ -156,6 +157,17 @@
                         <![CDATA[吉田君と確認を行いながらするためずっとする]]>
                     </notes>
                 </task>
+                <task id="43" name="モンスターのAI作成" color="#ff0000" meeting="false" start="2023-11-09" duration="8" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" priority="4" expand="true">
+                    <notes>
+                        <![CDATA[行動パターンは
+攻撃5種類
+怯み
+移動
+咆哮
+]]>
+                    </notes>
+                </task>
+                <task id="44" name="各攻撃のステータス設定" color="#ffff00" meeting="false" start="2023-11-09" duration="8" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
         <task id="4" name="ベータ" color="#3333ff" meeting="false" start="2023-09-25" duration="1" complete="0" thirdDate="2023-09-25" thirdDate-constraint="0" expand="true"/>
