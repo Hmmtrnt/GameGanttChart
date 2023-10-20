@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="MonsterHunter" company="" webLink="http://" view-date="2023-11-27" view-index="0" gantt-divider-location="396" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="MonsterHunter" company="" webLink="http://" view-date="2023-11-10" view-index="0" gantt-divider-location="396" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
     <description>
         <![CDATA[CAPCOMに就職する作品予定表]]>
     </description>
@@ -195,8 +195,13 @@
                     <![CDATA[機能を書き換えるたびに確認を行う]]>
                 </notes>
             </task>
-            <task id="60" name="リファクタリング" color="#ff0000" meeting="false" start="2023-12-13" duration="5" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" priority="4" expand="true"/>
+            <task id="66" name="難易度追加" color="#ff0000" meeting="false" start="2023-12-13" duration="2" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" priority="4" expand="true">
+                <notes>
+                    <![CDATA[体力を変えるだけ]]>
+                </notes>
+            </task>
             <task id="65" name="他の人にテストプレイをしてもらう" color="#ff0000" meeting="false" start="2023-12-13" duration="5" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" priority="4" expand="true"/>
+            <task id="60" name="リファクタリング" color="#ff0000" meeting="false" start="2023-12-15" duration="3" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" priority="4" expand="true"/>
             <task id="49" name="シーン" color="#666666" meeting="false" start="2023-11-27" duration="16" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" expand="true">
                 <task id="50" name="タイトルシーン" color="#ff0000" meeting="false" start="2023-11-27" duration="1" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" priority="4" expand="true">
                     <notes>
@@ -246,7 +251,7 @@
                 </task>
             </task>
         </task>
-        <task id="5" name="マスター" color="#999999" meeting="false" start="2023-12-18" duration="12" complete="0" thirdDate="2023-09-25" thirdDate-constraint="0" priority="4" expand="true">
+        <task id="5" name="マスター" color="#999999" meeting="false" start="2023-12-18" duration="12" complete="0" thirdDate="2023-09-25" thirdDate-constraint="0" priority="4" expand="false">
             <task id="62" name="バグ探し、除去" color="#ff0000" meeting="false" start="2023-12-18" duration="12" complete="0" thirdDate="2023-12-18" thirdDate-constraint="0" priority="4" expand="true"/>
             <task id="64" name="コードのリファクタリング" color="#ff0000" meeting="false" start="2023-12-22" duration="8" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" priority="4" expand="true"/>
             <task id="63" name="他の人にテストプレイをしてもらう" color="#ff0000" meeting="false" start="2023-12-18" duration="10" complete="0" thirdDate="2023-12-18" thirdDate-constraint="0" priority="4" expand="true">
