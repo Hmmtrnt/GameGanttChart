@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="MonsterHunter" company="" webLink="http://" view-date="2023-10-08" view-index="0" gantt-divider-location="430" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="MonsterHunter" company="" webLink="http://" view-date="2023-10-28" view-index="0" gantt-divider-location="430" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
     <description>
         <![CDATA[CAPCOMに就職する作品予定表]]>
     </description>
     <view zooming-state="default:3" id="gantt-chart">
-        <field id="tpd3" name="名前" width="242" order="0"/>
-        <field id="tpd4" name="開始日" width="93" order="1"/>
-        <field id="tpd5" name="終了日" width="94" order="2"/>
+        <field id="tpd3" name="名前" width="234" order="0"/>
+        <field id="tpd4" name="開始日" width="90" order="1"/>
+        <field id="tpd5" name="終了日" width="91" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <timeline>
             <![CDATA[52]]>
@@ -118,7 +118,7 @@
                     </task>
                 </task>
             </task>
-            <task id="3" name="アルファ" color="#00cc00" meeting="false" start="2023-10-30" duration="28" complete="0" thirdDate="2023-09-25" thirdDate-constraint="0" priority="4" expand="false">
+            <task id="3" name="アルファ" color="#00cc00" meeting="false" start="2023-10-30" duration="28" complete="0" thirdDate="2023-09-25" thirdDate-constraint="0" priority="4" expand="true">
                 <task id="34" name="舞台となるステージの制作" color="#cccccc" meeting="false" start="2023-10-30" duration="7" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" priority="3" expand="true">
                     <notes>
                         <![CDATA[形だけでも完成させる]]>
@@ -194,7 +194,7 @@
                     <task id="44" name="各攻撃のステータス設定" color="#ffff00" meeting="false" start="2023-11-08" duration="8" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true"/>
                 </task>
             </task>
-            <task id="4" name="ベータ" color="#3333ff" meeting="false" start="2023-11-27" duration="21" complete="0" thirdDate="2023-09-25" thirdDate-constraint="0" priority="4" expand="false">
+            <task id="4" name="ベータ" color="#3333ff" meeting="false" start="2023-11-27" duration="21" complete="0" thirdDate="2023-09-25" thirdDate-constraint="0" priority="4" expand="true">
                 <task id="48" name="バグ探し" color="#ffff00" meeting="false" start="2023-11-27" duration="21" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[機能を書き換えるたびに確認を行う]]>
@@ -233,7 +233,8 @@
                     <task id="54" name="レベルデザイン" color="#ff0000" meeting="false" start="2023-12-02" duration="9" complete="0" thirdDate="2023-11-16" thirdDate-constraint="0" priority="4" expand="true">
                         <notes>
                             <![CDATA[ステータスやアニメーションの調整などを行う
-ステータスが偏ってはいけないのでモンスターと並行して行う]]>
+ステータスが偏ってはいけないのでモンスターと並行して行う
+移動とか回避とかの処理も見直す]]>
                         </notes>
                     </task>
                     <task id="57" name="SEの追加" color="#ffff00" meeting="false" start="2023-12-02" duration="9" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" expand="true">
@@ -256,7 +257,7 @@
                     </task>
                 </task>
             </task>
-            <task id="5" name="マスター" color="#999999" meeting="false" start="2023-12-18" duration="12" complete="0" thirdDate="2023-09-25" thirdDate-constraint="0" priority="4" expand="false">
+            <task id="5" name="マスター" color="#999999" meeting="false" start="2023-12-18" duration="12" complete="0" thirdDate="2023-09-25" thirdDate-constraint="0" priority="4" expand="true">
                 <task id="62" name="バグ探し、除去" color="#ff0000" meeting="false" start="2023-12-18" duration="12" complete="0" thirdDate="2023-12-18" thirdDate-constraint="0" priority="4" expand="true"/>
                 <task id="64" name="コードのリファクタリング" color="#ff0000" meeting="false" start="2023-12-22" duration="8" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" priority="4" expand="true"/>
                 <task id="63" name="他の人にテストプレイをしてもらう" color="#ff0000" meeting="false" start="2023-12-18" duration="10" complete="0" thirdDate="2023-12-18" thirdDate-constraint="0" priority="4" expand="true">
