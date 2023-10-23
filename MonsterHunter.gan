@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="MonsterHunter" company="" webLink="http://" view-date="2023-11-10" view-index="0" gantt-divider-location="396" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="MonsterHunter" company="" webLink="http://" view-date="2023-09-24" view-index="0" gantt-divider-location="396" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
     <description>
         <![CDATA[CAPCOMに就職する作品予定表]]>
     </description>
@@ -42,9 +42,9 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="プロトタイプ" color="#ffcc00" meeting="false" start="2023-09-25" duration="35" complete="57" thirdDate="2023-10-13" thirdDate-constraint="0" priority="4" expand="false">
+        <task id="0" name="プロトタイプ" color="#ffcc00" meeting="false" start="2023-09-25" duration="35" complete="71" thirdDate="2023-10-13" thirdDate-constraint="0" priority="4" expand="true">
             <task id="7" name="1仮のステージの設置" color="#ff0000" meeting="false" start="2023-09-25" duration="3" complete="100" thirdDate="2023-09-23" thirdDate-constraint="0" priority="4" expand="true"/>
-            <task id="1" name="プレイヤー" color="#666666" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2023-09-27" duration="33" complete="60" thirdDate="2023-10-13" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="1" name="プレイヤー" color="#666666" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2023-09-27" duration="33" complete="72" thirdDate="2023-10-13" thirdDate-constraint="0" priority="4" expand="true">
                 <notes>
                     <![CDATA[以下の処理は調節無し]]>
                 </notes>
@@ -73,8 +73,8 @@
                         <![CDATA[吉田君と連携して行うため常にアニメーションを確認する]]>
                     </notes>
                 </task>
-                <task id="17" name="ステータス設定" color="#ff0000" meeting="false" start="2023-10-14" duration="2" complete="0" thirdDate="2023-09-23" thirdDate-constraint="0" priority="4" expand="true"/>
-                <task id="26" name="ステータスとUIを紐づけ" color="#ff0000" meeting="false" start="2023-10-23" duration="5" complete="0" thirdDate="2023-09-11" thirdDate-constraint="0" priority="4" expand="true"/>
+                <task id="17" name="ステータス設定" color="#ff0000" meeting="false" start="2023-10-14" duration="2" complete="100" thirdDate="2023-09-23" thirdDate-constraint="0" priority="4" expand="true"/>
+                <task id="26" name="ステータスとUIを紐づけ" color="#ff0000" meeting="false" start="2023-10-23" duration="5" complete="100" thirdDate="2023-09-11" thirdDate-constraint="0" priority="4" expand="true"/>
                 <task id="36" name="※リファクタリング" color="#ffff00" meeting="false" start="2023-10-28" duration="2" complete="0" thirdDate="2023-09-23" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[マジックナンバーを直すのような、がっつりするわけではない]]>
@@ -98,7 +98,7 @@
                     </notes>
                 </task>
             </task>
-            <task id="18" name="モンスター" color="#8cb6ce" meeting="false" start="2023-10-02" duration="28" complete="28" thirdDate="2023-09-23" thirdDate-constraint="0" expand="true">
+            <task id="18" name="モンスター" color="#8cb6ce" meeting="false" start="2023-10-02" duration="28" complete="52" thirdDate="2023-09-23" thirdDate-constraint="0" expand="true">
                 <task id="19" name="オブジェクトの設置" color="#cccccc" meeting="false" start="2023-10-02" duration="1" complete="100" thirdDate="2023-09-25" thirdDate-constraint="0" priority="3" expand="true">
                     <notes>
                         <![CDATA[モンスターのオブジェクトを設置するだけ]]>
@@ -110,7 +110,7 @@
                         <![CDATA[吉田君と行うため常に確認する]]>
                     </notes>
                 </task>
-                <task id="23" name="簡易AI追加" color="#ff0000" meeting="false" start="2023-10-16" duration="10" complete="30" thirdDate="2023-09-20" thirdDate-constraint="0" priority="4" expand="true">
+                <task id="23" name="簡易AI追加" color="#ff0000" meeting="false" start="2023-10-16" duration="10" complete="100" thirdDate="2023-09-20" thirdDate-constraint="0" priority="4" expand="true">
                     <notes>
                         <![CDATA[プレイヤーのもとに移動し続けてたどり着いたら攻撃判定を生成]]>
                     </notes>
