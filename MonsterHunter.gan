@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="MonsterHunter" company="" webLink="http://" view-date="2023-10-29" view-index="0" gantt-divider-location="389" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="MonsterHunter" company="" webLink="http://" view-date="2023-10-30" view-index="0" gantt-divider-location="375" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
     <description>
         <![CDATA[CAPCOMに就職する作品予定表]]>
     </description>
     <view zooming-state="default:3" id="gantt-chart">
-        <field id="tpd3" name="名前" width="210" order="0"/>
-        <field id="tpd4" name="開始日" width="81" order="1"/>
-        <field id="tpd5" name="終了日" width="82" order="2"/>
+        <field id="tpd3" name="名前" width="202" order="0"/>
+        <field id="tpd4" name="開始日" width="78" order="1"/>
+        <field id="tpd5" name="終了日" width="79" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <timeline>
             <![CDATA[52]]>
@@ -124,7 +124,7 @@
                     </task>
                 </task>
             </task>
-            <task id="3" name="アルファ" color="#00cc00" meeting="false" start="2023-10-30" duration="28" complete="5" thirdDate="2023-09-25" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="3" name="アルファ" color="#00cc00" meeting="false" start="2023-10-30" duration="28" complete="6" thirdDate="2023-09-25" thirdDate-constraint="0" priority="4" expand="true">
                 <task id="34" name="舞台となるステージの制作" color="#cccccc" meeting="false" start="2023-10-30" duration="7" complete="15" thirdDate="2023-10-30" thirdDate-constraint="0" priority="3" expand="true">
                     <notes>
                         <![CDATA[形だけでも完成させる]]>
@@ -143,7 +143,7 @@
                         <![CDATA[※の中で最も優先して行う]]>
                     </notes>
                 </task>
-                <task id="28" name="プレイヤー" color="#666666" meeting="false" start="2023-10-30" duration="28" complete="5" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true">
+                <task id="28" name="プレイヤー" color="#666666" meeting="false" start="2023-10-30" duration="28" complete="6" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[ステータスの値などをざっと調整する]]>
                     </notes>
@@ -161,7 +161,7 @@
 ※抜刀回避後ろ]]>
                         </notes>
                     </task>
-                    <task id="29" name="移動処理" color="#ff0000" meeting="false" start="2023-10-30" duration="2" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" priority="4" expand="true"/>
+                    <task id="29" name="移動処理" color="#ff0000" meeting="false" start="2023-10-30" duration="2" complete="20" thirdDate="2023-10-30" thirdDate-constraint="0" priority="4" expand="true"/>
                     <task id="30" name="ダッシュ処理" color="#ff0000" meeting="false" start="2023-10-30" duration="2" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" priority="4" expand="true"/>
                     <task id="31" name="回避" color="#ff0000" meeting="false" start="2023-10-31" duration="2" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" priority="4" expand="true"/>
                     <task id="32" name="ダメージを食らった時の処理追加" color="#ff0000" meeting="false" start="2023-11-01" duration="3" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" priority="4" expand="true">
