@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2023-11-02" view-index="0" gantt-divider-location="514" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2023-10-09" view-index="0" gantt-divider-location="531" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="名前" width="284" order="0"/>
-        <field id="tpd4" name="開始日" width="107" order="1"/>
-        <field id="tpd5" name="終了日" width="107" order="2"/>
+        <field id="tpd3" name="名前" width="293" order="0"/>
+        <field id="tpd4" name="開始日" width="111" order="1"/>
+        <field id="tpd5" name="終了日" width="111" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="color.recent">
             <![CDATA[#000000 #00cccc #ccffff #990000 #cccccc #9900cc #003399 #009999 #ccffcc #f4f4f4]]>
@@ -38,8 +38,8 @@
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
         <task id="0" name="予定プロトタイプ期間" color="#cccc00" meeting="false" start="2023-09-04" duration="35" complete="0" expand="true"/>
-        <task id="45" name="実プロトタイプ期間" meeting="false" start="2023-09-07" duration="27" complete="98" expand="false">
-            <task id="12" name="プレイヤー関係" color="#009999" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2023-09-07" duration="3" complete="100" thirdDate="2023-09-01" thirdDate-constraint="0" expand="false">
+        <task id="45" name="実プロトタイプ期間" meeting="false" start="2023-09-07" duration="27" complete="100" expand="true">
+            <task id="12" name="プレイヤー関係" color="#009999" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2023-09-07" duration="3" complete="100" thirdDate="2023-09-01" thirdDate-constraint="0" expand="true">
                 <task id="4" name="2D盤面プレイヤー移動処理" color="#ffffcc" meeting="false" start="2023-09-07" duration="1" complete="100" thirdDate="2023-09-01" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[プレイヤー2D
@@ -203,7 +203,7 @@
                     </notes>
                 </task>
             </task>
-            <task id="35" name="ステージ1-3関係" color="#00cccc" meeting="false" start="2023-09-25" duration="9" complete="94" thirdDate="2023-09-09" thirdDate-constraint="0" expand="false">
+            <task id="35" name="ステージ1-3関係" color="#00cccc" meeting="false" start="2023-09-25" duration="9" complete="100" thirdDate="2023-09-09" thirdDate-constraint="0" expand="false">
                 <task id="36" name="横移動するアスレチックの配置" color="#ffffcc" meeting="false" start="2023-09-25" duration="1" complete="100" thirdDate="2023-09-09" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[ステージ3ギミック1
@@ -252,7 +252,7 @@
 10/2実装完了確認済]]>
                     </notes>
                 </task>
-                <task id="44" name="シーン遷移1-1" color="#ffffcc" meeting="false" start="2023-10-03" duration="1" complete="50" thirdDate="2023-09-18" thirdDate-constraint="0" expand="true">
+                <task id="44" name="シーン遷移1-1" color="#ffffcc" meeting="false" start="2023-10-03" duration="1" complete="100" thirdDate="2023-09-18" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[ステージ-3]]>
                     </notes>
@@ -260,7 +260,7 @@
             </task>
         </task>
         <task id="1" name="予定アルファ期間" color="#009933" meeting="false" start="2023-10-09" duration="28" complete="0" expand="true"/>
-        <task id="46" name="実アルファ期間" color="#000000" meeting="false" start="2023-10-09" duration="28" complete="2" thirdDate="2023-09-04" thirdDate-constraint="0" expand="true">
+        <task id="46" name="実アルファ期間" color="#000000" meeting="false" start="2023-10-09" duration="28" complete="9" thirdDate="2023-09-04" thirdDate-constraint="0" expand="true">
             <task id="47" name="プレイヤー関係" color="#009999" meeting="false" start="2023-10-09" duration="28" complete="0" thirdDate="2023-09-04" thirdDate-constraint="0" expand="true">
                 <task id="48" name="キャラクターのリファクタリング" color="#ccffcc" meeting="false" start="2023-10-09" duration="28" complete="0" thirdDate="2023-09-04" thirdDate-constraint="0" expand="true">
                     <notes>
@@ -269,7 +269,7 @@
 きたオブジェクトによっては短くなったり長くなったりする可能性がある。]]>
                     </notes>
                 </task>
-                <task id="49" name="表世界から裏世界にわたる際の残機共有" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="0" thirdDate="2023-09-23" thirdDate-constraint="0" expand="true">
+                <task id="49" name="表世界から裏世界にわたる際の残機共有" color="#ccffcc" meeting="false" start="2023-11-04" duration="1" complete="0" thirdDate="2023-09-23" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[プレイヤー3D]]>
                     </notes>
@@ -280,114 +280,121 @@
 注文によるので具体的な期間は不明。]]>
                     </notes>
                 </task>
-                <task id="51" name="落下ダメージ" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="0" thirdDate="2023-09-20" thirdDate-constraint="0" expand="true">
+                <task id="51" name="落下ダメージ" color="#ccffcc" meeting="false" start="2023-11-04" duration="1" complete="0" thirdDate="2023-09-20" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[プレイヤー]]>
                     </notes>
                 </task>
-                <task id="52" name="キャラクターの制御を変更" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="0" thirdDate="2023-09-20" thirdDate-constraint="0" expand="true">
+                <task id="52" name="キャラクターの制御を変更" color="#ccffcc" meeting="false" start="2023-11-04" duration="1" complete="0" thirdDate="2023-09-20" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[プレイヤー
 ]]>
                     </notes>
                 </task>
             </task>
-            <task id="53" name="カメラ" color="#003399" meeting="false" start="2023-10-09" duration="1" complete="20" thirdDate="2023-09-20" thirdDate-constraint="0" expand="false">
-                <task id="54" name="ギミックが作動中にピックアップするようにプレハブ化" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="20" thirdDate="2023-09-10" thirdDate-constraint="0" expand="true">
+            <task id="53" name="カメラ" color="#003399" meeting="false" start="2023-10-09" duration="1" complete="40" thirdDate="2023-09-20" thirdDate-constraint="0" expand="true">
+                <task id="54" name="ギミックが作動中にピックアップするようにプレハブ化" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="40" thirdDate="2023-09-10" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[カメラ
-ギミックが作動中にカメラがギミックをピックアップして映すようにする。]]>
+ギミックが作動中にカメラがギミックをピックアップして映すようにする。
+追加でカメラが壁にめり込まないようにする処理も追加]]>
                     </notes>
                 </task>
             </task>
-            <task id="55" name="ステージ1-1関係" color="#9900cc" meeting="false" start="2023-10-09" duration="1" complete="100" thirdDate="2023-09-10" thirdDate-constraint="0" expand="false">
-                <task id="58" name="橋が架かるときの演出" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="100" thirdDate="2023-09-07" thirdDate-constraint="0" expand="true">
+            <task id="55" name="ステージ1-1関係" color="#9900cc" meeting="false" start="2023-10-10" duration="4" complete="100" thirdDate="2023-09-10" thirdDate-constraint="0" expand="false">
+                <task id="58" name="橋が架かるときの演出" color="#ccffcc" meeting="false" start="2023-10-10" duration="2" complete="100" thirdDate="2023-09-07" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[1-1ギミック1
 ギミック解除後に橋が架かる演出]]>
                     </notes>
                 </task>
-                <task id="59" name="パーティクルの調整、演出" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="100" thirdDate="2023-09-07" thirdDate-constraint="0" expand="true">
+                <task id="59" name="パーティクルの調整、演出" color="#ccffcc" meeting="false" start="2023-10-12" duration="2" complete="100" thirdDate="2023-09-07" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[1-1ギミック2
 風車ギミックのパーティクル調整と演出実装。]]>
                     </notes>
                 </task>
             </task>
-            <task id="56" name="ステージ1-2関係" color="#990000" meeting="false" start="2023-10-09" duration="1" complete="0" thirdDate="2023-09-07" thirdDate-constraint="0" expand="false">
-                <task id="60" name="扉を開ける演出と扉の見た目調整" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
+            <task id="56" name="ステージ1-2関係" color="#990000" meeting="false" start="2023-10-16" duration="6" complete="68" thirdDate="2023-09-07" thirdDate-constraint="0" expand="false">
+                <task id="60" name="扉を開ける演出と扉の見た目調整" color="#ccffcc" meeting="false" start="2023-10-16" duration="1" complete="100" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[1-2ギミック1
 扉を開けるギミックの演出と扉の見た目を調整]]>
                     </notes>
                 </task>
-                <task id="61" name="ベルトコンベアの演出" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
+                <task id="61" name="ベルトコンベアの演出" color="#ccffcc" meeting="false" start="2023-10-17" duration="1" complete="100" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[1-2ギミック1
-ベルトコンベアギミックの演出]]>
+ベルトコンベアギミックの演出
+カメラを除く]]>
                     </notes>
                 </task>
-                <task id="62" name="オブジェクトの置き換え" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
+                <task id="62" name="オブジェクトの置き換え" color="#ccffcc" meeting="false" start="2023-10-18" duration="1" complete="100" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[1-2ギミック2]]>
                     </notes>
                 </task>
-                <task id="63" name="爆弾の演出" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
+                <task id="63" name="爆弾の演出" color="#ccffcc" meeting="false" start="2023-10-19" duration="1" complete="80" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[1-2ギミック3
 爆弾で敵を飛ばす演出]]>
                     </notes>
                 </task>
-                <task id="64" name="敵を燃やす処理" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
+                <task id="64" name="敵を燃やす処理" color="#ccffcc" meeting="false" start="2023-10-20" duration="1" complete="100" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[1-2ギミック4
-ギミック解除語に敵を燃やす処理]]>
+ギミック解除語に敵を燃やす処理
+なぜかマテリアルが取得できない
+どうしよう]]>
                     </notes>
                 </task>
-                <task id="65" name="敵のフェードアウト" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
+                <task id="65" name="敵のフェードアウト" color="#ccffcc" meeting="false" start="2023-10-20" duration="2" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[1-2
-敵のフェードアウト]]>
+敵のフェードアウト
+なぜかマテリアルが取得できない
+どうしよう]]>
                     </notes>
                 </task>
             </task>
-            <task id="57" name="ステージ1-3関係" color="#00cccc" meeting="false" start="2023-10-09" duration="1" complete="0" thirdDate="2023-09-07" thirdDate-constraint="0" expand="false">
-                <task id="66" name="ギミック1アスレチックのバグを修正" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
+            <task id="57" name="ステージ1-3関係" color="#00cccc" meeting="false" start="2023-10-23" duration="13" complete="0" thirdDate="2023-09-07" thirdDate-constraint="0" expand="true">
+                <task id="66" name="ギミック1アスレチックのバグを修正" color="#ccffcc" meeting="false" start="2023-10-23" duration="1" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[1-3ギミック1
 アスレチックのバグを修正]]>
                     </notes>
                 </task>
-                <task id="67" name="ギミック2アスレチックのバグを修正" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
+                <task id="67" name="ギミック2アスレチックのバグを修正" color="#ccffcc" meeting="false" start="2023-10-24" duration="1" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[1-3ギミック2
 アスレチックのバグを修正]]>
                     </notes>
                 </task>
-                <task id="69" name="ギミック3アスレチックのバグを修正" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="0" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true">
+                <task id="69" name="ギミック3アスレチックのバグを修正" color="#ccffcc" meeting="false" start="2023-10-25" duration="1" complete="0" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[1-3ギミック3
 アスレチックのバグを修正]]>
                     </notes>
                 </task>
-                <task id="70" name="ギミック4アスレチックのバグを修正" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="0" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true">
+                <task id="70" name="ギミック4アスレチックのバグを修正" color="#ccffcc" meeting="false" start="2023-10-26" duration="1" complete="0" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[1-3ギミック4
 アスレチックのバグを修正]]>
                     </notes>
                 </task>
+                <task id="104" name="各ギミック部屋に行くための部屋を制作" color="#8cb6ce" meeting="false" start="2023-11-03" duration="2" complete="0" thirdDate="2023-10-08" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="71" name="シーン遷移1-2" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
+            <task id="71" name="シーン遷移1-2" color="#ccffcc" meeting="false" start="2023-10-29" duration="1" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[シーンをつなげる]]>
                 </notes>
             </task>
-            <task id="72" name="シーン遷移1-3" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
+            <task id="72" name="シーン遷移1-3" color="#ccffcc" meeting="false" start="2023-11-05" duration="1" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[シーンをつなげる]]>
                 </notes>
             </task>
-            <task id="73" name="全体のギミック" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
+            <task id="73" name="全体のギミック" color="#ccffcc" meeting="false" start="2023-10-16" duration="21" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[今までの作り方だとバグが発生するので作り直す。]]>
                 </notes>
