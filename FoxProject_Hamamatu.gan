@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2023-10-23" view-index="0" gantt-divider-location="516" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2023-11-06" view-index="0" gantt-divider-location="501" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="名前" width="284" order="0"/>
-        <field id="tpd4" name="開始日" width="108" order="1"/>
-        <field id="tpd5" name="終了日" width="108" order="2"/>
+        <field id="tpd3" name="名前" width="275" order="0"/>
+        <field id="tpd4" name="開始日" width="105" order="1"/>
+        <field id="tpd5" name="終了日" width="105" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="color.recent">
             <![CDATA[#000000 #00cccc #ccffff #990000 #cccccc #9900cc #003399 #009999 #ccffcc #f4f4f4]]>
@@ -38,7 +38,7 @@
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
         <task id="0" name="予定プロトタイプ期間" color="#cccc00" meeting="false" start="2023-09-04" duration="35" complete="0" expand="true"/>
-        <task id="45" name="実プロトタイプ期間" meeting="false" start="2023-09-07" duration="27" complete="100" expand="true">
+        <task id="45" name="実プロトタイプ期間" meeting="false" start="2023-09-07" duration="27" complete="100" expand="false">
             <task id="12" name="プレイヤー関係" color="#009999" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2023-09-07" duration="3" complete="100" thirdDate="2023-09-01" thirdDate-constraint="0" expand="true">
                 <task id="4" name="2D盤面プレイヤー移動処理" color="#ffffcc" meeting="false" start="2023-09-07" duration="1" complete="100" thirdDate="2023-09-01" thirdDate-constraint="0" expand="true">
                     <notes>
@@ -260,8 +260,8 @@
             </task>
         </task>
         <task id="1" name="予定アルファ期間" color="#009933" meeting="false" start="2023-10-09" duration="28" complete="0" expand="true"/>
-        <task id="46" name="実アルファ期間" color="#000000" meeting="false" start="2023-10-09" duration="28" complete="33" thirdDate="2023-09-04" thirdDate-constraint="0" expand="true">
-            <task id="47" name="プレイヤー関係" color="#009999" meeting="false" start="2023-10-09" duration="28" complete="4" thirdDate="2023-09-04" thirdDate-constraint="0" expand="true">
+        <task id="46" name="実アルファ期間" color="#000000" meeting="false" start="2023-10-09" duration="28" complete="39" thirdDate="2023-09-04" thirdDate-constraint="0" expand="false">
+            <task id="47" name="プレイヤー関係" color="#009999" meeting="false" start="2023-10-09" duration="28" complete="14" thirdDate="2023-09-04" thirdDate-constraint="0" expand="true">
                 <task id="48" name="キャラクターのリファクタリング" color="#ccffcc" meeting="false" start="2023-10-09" duration="28" complete="0" thirdDate="2023-09-04" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[2Dステージでのプレイヤーの当たり判定関係になるためアルファ全体を使う
@@ -280,20 +280,20 @@
 注文によるので具体的な期間は不明。]]>
                     </notes>
                 </task>
-                <task id="51" name="落下ダメージ" color="#ccffcc" meeting="false" start="2023-11-01" duration="5" complete="0" thirdDate="2023-09-20" thirdDate-constraint="0" expand="true">
+                <task id="51" name="落下ダメージ" color="#ccffcc" meeting="false" start="2023-11-01" duration="5" complete="100" thirdDate="2023-09-20" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[プレイヤー]]>
                     </notes>
                 </task>
-                <task id="52" name="キャラクターの制御を変更" color="#ccffcc" meeting="false" start="2023-11-01" duration="5" complete="70" thirdDate="2023-09-20" thirdDate-constraint="0" expand="true">
+                <task id="52" name="キャラクターの制御を変更" color="#ccffcc" meeting="false" start="2023-11-01" duration="5" complete="100" thirdDate="2023-09-20" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[プレイヤー
 ]]>
                     </notes>
                 </task>
             </task>
-            <task id="53" name="カメラ" color="#003399" meeting="false" start="2023-10-09" duration="1" complete="40" thirdDate="2023-09-20" thirdDate-constraint="0" expand="false">
-                <task id="54" name="ギミックが作動中にピックアップするようにプレハブ化" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="40" thirdDate="2023-09-10" thirdDate-constraint="0" expand="true">
+            <task id="53" name="カメラ" color="#003399" meeting="false" start="2023-10-09" duration="1" complete="100" thirdDate="2023-09-20" thirdDate-constraint="0" expand="true">
+                <task id="54" name="ギミックが作動中にピックアップするようにプレハブ化" color="#ccffcc" meeting="false" start="2023-10-09" duration="1" complete="100" thirdDate="2023-09-10" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[カメラ
 ギミックが作動中にカメラがギミックをピックアップして映すようにする。
@@ -406,7 +406,7 @@
             </task>
         </task>
         <task id="2" name="予定ベータ期間" color="#00ccff" meeting="false" start="2023-11-06" duration="14" complete="0" expand="true"/>
-        <task id="74" name="実アルファ期間" color="#000000" meeting="false" start="2023-11-06" duration="14" complete="0" thirdDate="2023-10-31" thirdDate-constraint="0" expand="false">
+        <task id="74" name="実アルファ期間" color="#000000" meeting="false" start="2023-11-06" duration="14" complete="14" thirdDate="2023-10-31" thirdDate-constraint="0" expand="true">
             <task id="75" name="プレイヤー関係" color="#009999" meeting="false" start="2023-11-06" duration="2" complete="0" thirdDate="2023-10-31" thirdDate-constraint="0" expand="true">
                 <task id="76" name="２Dプレイヤーのリファクタリング" color="#ccffff" meeting="false" start="2023-11-06" duration="2" complete="0" thirdDate="2023-10-10" thirdDate-constraint="0" expand="true">
                     <notes>
@@ -424,15 +424,15 @@
                     </notes>
                 </task>
             </task>
-            <task id="79" name="カメラ" color="#003399" meeting="false" start="2023-11-08" duration="2" complete="0" thirdDate="2023-10-10" thirdDate-constraint="0" expand="true">
-                <task id="80" name="カメラのリファクタリング" color="#ccffff" meeting="false" start="2023-11-08" duration="2" complete="0" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true">
+            <task id="79" name="カメラ" color="#003399" meeting="false" start="2023-11-08" duration="2" complete="100" thirdDate="2023-10-10" thirdDate-constraint="0" expand="true">
+                <task id="80" name="カメラのリファクタリング" color="#ccffff" meeting="false" start="2023-11-08" duration="2" complete="100" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[カメラのリファクタリング]]>
                     </notes>
                 </task>
             </task>
-            <task id="81" name="ステージ1-1関係" color="#9900cc" meeting="false" start="2023-11-10" duration="2" complete="0" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true">
-                <task id="82" name="1-1のリファクタリング" color="#ccffff" meeting="false" start="2023-11-10" duration="2" complete="0" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true">
+            <task id="81" name="ステージ1-1関係" color="#9900cc" meeting="false" start="2023-11-10" duration="2" complete="50" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true">
+                <task id="82" name="1-1のリファクタリング" color="#ccffff" meeting="false" start="2023-11-10" duration="2" complete="100" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[ステージ1-1のリファクタリング]]>
                     </notes>
@@ -443,8 +443,8 @@
                     </notes>
                 </task>
             </task>
-            <task id="85" name="ステージ1-2関係" color="#990000" meeting="false" start="2023-11-12" duration="2" complete="0" thirdDate="2023-11-06" thirdDate-constraint="0" expand="true">
-                <task id="86" name="1-2のリファクタリング" color="#ccffff" meeting="false" start="2023-11-12" duration="2" complete="0" thirdDate="2023-11-06" thirdDate-constraint="0" expand="true">
+            <task id="85" name="ステージ1-2関係" color="#990000" meeting="false" start="2023-11-12" duration="2" complete="25" thirdDate="2023-11-06" thirdDate-constraint="0" expand="true">
+                <task id="86" name="1-2のリファクタリング" color="#ccffff" meeting="false" start="2023-11-12" duration="2" complete="50" thirdDate="2023-11-06" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[ステージ1-2のリファクタリング]]>
                     </notes>
