@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="MonsterHunter" company="" webLink="http://" view-date="2023-10-22" view-index="0" gantt-divider-location="263" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="MonsterHunter" company="" webLink="http://" view-date="2023-10-22" view-index="0" gantt-divider-location="249" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
     <description>
         <![CDATA[CAPCOMに就職する作品予定表]]>
     </description>
     <view zooming-state="default:3" id="gantt-chart">
-        <field id="tpd3" name="名前" width="138" order="0"/>
-        <field id="tpd4" name="開始日" width="54" order="1"/>
-        <field id="tpd5" name="終了日" width="55" order="2"/>
+        <field id="tpd3" name="名前" width="130" order="0"/>
+        <field id="tpd4" name="開始日" width="51" order="1"/>
+        <field id="tpd5" name="終了日" width="52" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <timeline>
             <![CDATA[52]]>
@@ -124,7 +124,7 @@
                     </task>
                 </task>
             </task>
-            <task id="3" name="アルファ" color="#00cc00" meeting="false" start="2023-10-30" duration="28" complete="36" thirdDate="2023-09-25" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="3" name="アルファ" color="#00cc00" meeting="false" start="2023-10-30" duration="28" complete="37" thirdDate="2023-09-25" thirdDate-constraint="0" priority="4" expand="true">
                 <task id="34" name="舞台となるステージの制作" color="#cccccc" meeting="false" start="2023-10-30" duration="7" complete="100" thirdDate="2023-10-30" thirdDate-constraint="0" priority="3" expand="true">
                     <notes>
                         <![CDATA[形だけでも完成させる]]>
@@ -143,7 +143,7 @@
                         <![CDATA[※の中で最も優先して行う]]>
                     </notes>
                 </task>
-                <task id="28" name="プレイヤー" color="#666666" meeting="false" start="2023-10-30" duration="28" complete="51" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true">
+                <task id="28" name="プレイヤー" color="#666666" meeting="false" start="2023-10-30" duration="28" complete="53" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[ステータスの値などをざっと調整する]]>
                     </notes>
@@ -180,8 +180,8 @@
 錬気ゲージも入れる←無理かも]]>
                         </notes>
                     </task>
-                    <task id="46" name="UIの挙動調整、アイテムスライダーと回復などを紐づけ" color="#ff0000" meeting="false" start="2023-11-16" duration="3" complete="40" thirdDate="2023-10-30" thirdDate-constraint="0" priority="4" expand="true"/>
-                    <task id="45" name="プレイヤーの操作の気持ちよさを調整" color="#ff0000" meeting="false" start="2023-11-19" duration="3" complete="30" thirdDate="2023-10-30" thirdDate-constraint="0" priority="4" expand="true">
+                    <task id="46" name="UIの挙動調整、アイテムスライダーと回復などを紐づけ" color="#ff0000" meeting="false" start="2023-11-16" duration="3" complete="50" thirdDate="2023-10-30" thirdDate-constraint="0" priority="4" expand="true"/>
+                    <task id="45" name="プレイヤーの操作の気持ちよさを調整" color="#ff0000" meeting="false" start="2023-11-19" duration="3" complete="50" thirdDate="2023-10-30" thirdDate-constraint="0" priority="4" expand="true">
                         <notes>
                             <![CDATA[モンハンをプレイしつつ気持ちよいプレイヤー操作に調整]]>
                         </notes>
