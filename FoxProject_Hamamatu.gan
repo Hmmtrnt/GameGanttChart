@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2023-11-08" view-index="0" gantt-divider-location="471" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2023-11-05" view-index="0" gantt-divider-location="472" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="名前" width="266" order="0"/>
-        <field id="tpd4" name="開始日" width="102" order="1"/>
-        <field id="tpd5" name="終了日" width="102" order="2"/>
+        <field id="tpd3" name="名前" width="258" order="0"/>
+        <field id="tpd4" name="開始日" width="99" order="1"/>
+        <field id="tpd5" name="終了日" width="99" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="color.recent">
             <![CDATA[#000000 #00cccc #ccffff #990000 #cccccc #9900cc #003399 #009999 #ccffcc #f4f4f4]]>
@@ -406,14 +406,14 @@
             </task>
         </task>
         <task id="2" name="予定ベータ期間" color="#00ccff" meeting="false" start="2023-11-06" duration="14" complete="0" expand="true"/>
-        <task id="74" name="実ベータ期間" color="#000000" meeting="false" start="2023-11-06" duration="21" complete="31" thirdDate="2023-10-31" thirdDate-constraint="0" expand="true">
-            <task id="75" name="プレイヤー関係" color="#009999" meeting="false" start="2023-11-06" duration="2" complete="0" thirdDate="2023-10-31" thirdDate-constraint="0" expand="true">
-                <task id="76" name="２Dプレイヤーのリファクタリング" color="#ccffff" meeting="false" start="2023-11-06" duration="2" complete="0" thirdDate="2023-10-10" thirdDate-constraint="0" expand="true">
+        <task id="74" name="実ベータ期間" color="#000000" meeting="false" start="2023-11-06" duration="21" complete="52" thirdDate="2023-10-31" thirdDate-constraint="0" expand="true">
+            <task id="75" name="プレイヤー関係" color="#009999" meeting="false" start="2023-11-06" duration="2" complete="66" thirdDate="2023-10-31" thirdDate-constraint="0" expand="true">
+                <task id="76" name="２Dプレイヤーのリファクタリング" color="#ccffff" meeting="false" start="2023-11-06" duration="2" complete="100" thirdDate="2023-10-10" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[２Dプレイヤーのリファクタリング]]>
                     </notes>
                 </task>
-                <task id="77" name="3Dプレイヤーのリファクタリング" color="#ccffff" meeting="false" start="2023-11-06" duration="2" complete="0" thirdDate="2023-10-10" thirdDate-constraint="0" expand="true">
+                <task id="77" name="3Dプレイヤーのリファクタリング" color="#ccffff" meeting="false" start="2023-11-06" duration="2" complete="100" thirdDate="2023-10-10" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[3Dプレイヤーのリファクタリング]]>
                     </notes>
@@ -467,16 +467,18 @@
                     </notes>
                 </task>
             </task>
-            <task id="91" name="追加の処理があり次第追加" color="#ccffff" meeting="false" start="2023-11-13" duration="14" complete="40" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true">
+            <task id="91" name="追加の処理があり次第追加" color="#ccffff" meeting="false" start="2023-11-13" duration="14" complete="60" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true">
                 <task id="109" name="1-1演出" color="#8cb6ce" meeting="false" start="2023-11-13" duration="3" complete="100" thirdDate="2023-11-16" thirdDate-constraint="0" expand="true"/>
                 <task id="108" name="ボスの登場演出" color="#8cb6ce" meeting="false" start="2023-11-16" duration="2" complete="100" thirdDate="2023-11-16" thirdDate-constraint="0" expand="true"/>
-                <task id="107" name="ワープ演出" color="#8cb6ce" meeting="false" start="2023-11-17" duration="2" complete="50" thirdDate="2023-11-12" thirdDate-constraint="0" expand="true"/>
-                <task id="110" name="1-2演出" color="#8cb6ce" meeting="false" start="2023-11-19" duration="4" complete="0" thirdDate="2023-11-15" thirdDate-constraint="0" expand="true"/>
+                <task id="107" name="ワープ演出" color="#8cb6ce" meeting="false" start="2023-11-17" duration="2" complete="100" thirdDate="2023-11-12" thirdDate-constraint="0" expand="true"/>
+                <task id="110" name="1-2演出" color="#8cb6ce" meeting="false" start="2023-11-19" duration="4" complete="100" thirdDate="2023-11-15" thirdDate-constraint="0" expand="true"/>
+                <task id="113" name="ボスの演出" color="#8cb6ce" meeting="false" start="2023-11-22" duration="1" complete="100" thirdDate="2023-11-12" thirdDate-constraint="0" expand="true"/>
                 <task id="111" name="1-3演出" color="#8cb6ce" meeting="false" start="2023-11-23" duration="4" complete="0" thirdDate="2023-11-19" thirdDate-constraint="0" expand="true"/>
+                <task id="112" name="3Dワープ演出" color="#8cb6ce" meeting="false" start="2023-11-23" duration="4" complete="0" thirdDate="2023-11-17" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
         <task id="3" name="予定マスター期間" color="#666666" meeting="false" start="2023-11-20" duration="14" complete="0" expand="true"/>
-        <task id="103" name="実マスター期間" color="#000000" meeting="false" start="2023-11-27" duration="7" complete="0" thirdDate="2023-11-02" thirdDate-constraint="0" expand="false">
+        <task id="103" name="実マスター期間" color="#000000" meeting="false" start="2023-11-27" duration="7" complete="0" thirdDate="2023-11-02" thirdDate-constraint="0" expand="true">
             <task id="93" name="プレイヤー関係" color="#009999" meeting="false" start="2023-11-27" duration="1" complete="0" thirdDate="2023-11-04" thirdDate-constraint="0" expand="true">
                 <task id="92" name="２Dプレイヤーのリファクタリング＆バグ取" color="#cccccc" meeting="false" start="2023-11-27" duration="1" complete="0" thirdDate="2023-11-04" thirdDate-constraint="0" expand="true">
                     <notes>
