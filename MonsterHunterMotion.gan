@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="MonsterHunterMotion" company="" webLink="http://" view-date="2023-11-26" view-index="0" gantt-divider-location="391" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="MonsterHunterMotion" company="" webLink="http://" view-date="2023-11-22" view-index="0" gantt-divider-location="376" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
     <description>
         <![CDATA[モンハンのモーションガントチャート]]>
     </description>
     <view zooming-state="default:3" id="gantt-chart">
-        <field id="tpd3" name="名前" width="213" order="0"/>
-        <field id="tpd4" name="開始日" width="81" order="1"/>
-        <field id="tpd5" name="終了日" width="81" order="2"/>
+        <field id="tpd3" name="名前" width="204" order="0"/>
+        <field id="tpd4" name="開始日" width="78" order="1"/>
+        <field id="tpd5" name="終了日" width="78" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="color.recent">
             <![CDATA[#ff0000 #ffff00 #f4f4f4 #999999 #000000 #666666 #33ffcc #cccccc #3333ff #00cc00]]>
@@ -39,7 +39,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="モーション全体" meeting="false" start="2023-11-06" duration="33" complete="34" expand="true">
+        <task id="0" name="モーション全体" meeting="false" start="2023-11-06" duration="33" complete="35" expand="true">
             <task id="1" name="ハンター" color="#999999" meeting="false" start="2023-11-06" duration="24" complete="78" thirdDate="2023-10-31" thirdDate-constraint="0" priority="4" expand="true">
                 <task id="30" name="攻撃を食らった時のモーション" color="#ff0000" meeting="false" start="2023-11-07" duration="1" complete="100" thirdDate="2023-11-04" thirdDate-constraint="0" priority="4" expand="true"/>
                 <task id="27" name="抜刀回避" color="#ff0000" meeting="false" start="2023-11-08" duration="1" complete="100" thirdDate="2023-11-05" thirdDate-constraint="0" priority="4" expand="true"/>
@@ -63,9 +63,9 @@
                 <task id="26" name="抜刀回避右左" color="#ff0000" meeting="false" start="2023-11-28" duration="1" complete="100" thirdDate="2023-11-11" thirdDate-constraint="0" priority="4" expand="true"/>
                 <task id="32" name="抜刀移動" color="#ff0000" meeting="false" start="2023-11-29" duration="1" complete="0" thirdDate="2023-11-26" thirdDate-constraint="0" priority="4" expand="true"/>
             </task>
-            <task id="11" name="モンスター" color="#999999" meeting="false" start="2023-11-11" duration="24" complete="8" thirdDate="2023-11-06" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="11" name="モンスター" color="#999999" meeting="false" start="2023-11-11" duration="24" complete="9" thirdDate="2023-11-06" thirdDate-constraint="0" priority="4" expand="true">
                 <task id="12" name="アイドル状態修正" color="#ff0000" meeting="false" start="2023-11-11" duration="2" complete="50" thirdDate="2023-11-06" thirdDate-constraint="0" priority="4" expand="true"/>
-                <task id="20" name="攻撃全体" color="#ffff00" meeting="false" start="2023-11-30" duration="4" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" priority="4" expand="true">
+                <task id="20" name="攻撃全体" color="#ffff00" meeting="false" start="2023-11-30" duration="3" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" priority="4" expand="true">
                     <notes>
                         <![CDATA[どれか一つモーションを消去予定]]>
                     </notes>
@@ -75,7 +75,6 @@
                     <task id="16" name="攻撃4" color="#ff0000" meeting="false" start="2023-12-01" duration="1" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" priority="4" expand="true"/>
                     <task id="17" name="攻撃5" color="#ff0000" meeting="false" start="2023-12-02" duration="1" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" priority="4" expand="true"/>
                     <task id="18" name="攻撃6" color="#ff0000" meeting="false" start="2023-12-02" duration="1" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" priority="4" expand="true"/>
-                    <task id="19" name="大技" color="#ff0000" meeting="false" start="2023-12-03" duration="1" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" priority="4" expand="true"/>
                 </task>
                 <task id="21" name="討伐モーション" color="#ff0000" meeting="false" start="2023-12-03" duration="1" complete="0" thirdDate="2023-11-21" thirdDate-constraint="0" priority="4" expand="true"/>
                 <task id="22" name="怯みモーション" color="#ff0000" meeting="false" start="2023-12-04" duration="1" complete="0" thirdDate="2023-11-21" thirdDate-constraint="0" priority="4" expand="true"/>
