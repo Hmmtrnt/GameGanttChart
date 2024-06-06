@@ -37,8 +37,8 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="プロトタイプ" color="#cccc00" meeting="false" start="2024-06-06" duration="5" complete="0" thirdDate="2024-06-06" thirdDate-constraint="0" expand="true">
-            <task id="6" name="仮UIの配置" color="#8cb6ce" meeting="false" start="2024-06-06" duration="1" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true"/>
+        <task id="0" name="プロトタイプ" color="#cccc00" meeting="false" start="2024-06-06" duration="5" complete="3" thirdDate="2024-06-06" thirdDate-constraint="0" expand="true">
+            <task id="6" name="仮UIの配置" color="#8cb6ce" meeting="false" start="2024-06-06" duration="1" complete="50" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true"/>
             <task id="7" name="コントローラでシーン遷移" color="#8cb6ce" meeting="false" start="2024-06-07" duration="1" complete="0" thirdDate="2024-06-06" thirdDate-constraint="0" expand="true"/>
             <task id="8" name="タイトル→セレクト" color="#8cb6ce" meeting="false" start="2024-06-07" duration="1" complete="0" thirdDate="2024-06-06" thirdDate-constraint="0" expand="true"/>
             <task id="9" name="セレクト→ゲームプレイ" color="#8cb6ce" meeting="false" start="2024-06-07" duration="1" complete="0" thirdDate="2024-06-06" thirdDate-constraint="0" expand="true"/>
