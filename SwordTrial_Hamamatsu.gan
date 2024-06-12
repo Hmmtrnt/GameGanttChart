@@ -38,7 +38,7 @@
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
         <task id="20" name="プロトタイプ" color="#ffff00" meeting="false" start="2024-06-12" duration="9" complete="0" expand="true">
-            <task id="26" name="仮UIの配置" meeting="false" start="2024-06-12" duration="1" complete="0" expand="true"/>
+            <task id="26" name="仮UIの配置" meeting="false" start="2024-06-12" duration="2" complete="0" expand="true"/>
             <task id="27" name="コントローラでシーン遷移" meeting="false" start="2024-06-12" duration="2" complete="0" expand="true"/>
             <task id="28" name="タイトル→ゲームプレイ" meeting="false" start="2024-06-13" duration="2" complete="0" expand="true"/>
             <task id="29" name="ゲームプレイ→勝利" meeting="false" start="2024-06-13" duration="2" complete="0" expand="true"/>
