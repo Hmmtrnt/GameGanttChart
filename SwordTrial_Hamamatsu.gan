@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="SwordTrial_Hamamatsu" company="" webLink="http://" view-date="2024-06-12" view-index="0" gantt-divider-location="264" resource-divider-location="300" version="3.3.3309" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="SwordTrial_Hamamatsu" company="" webLink="http://" view-date="2024-06-12" view-index="0" gantt-divider-location="264" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="名前" width="149" order="0"/>
         <field id="tpd4" name="開始日" width="56" order="1"/>
         <field id="tpd5" name="終了日" width="58" order="2"/>
         <option id="filter.completedTasks" value="false"/>
-        <option id="filter.dueTodayTasks" value="false"/>
-        <option id="filter.overdueTasks" value="false"/>
-        <option id="filter.inProgressTodayTasks" value="false"/>
-        <option id="color.recent"><![CDATA[#cc0000 #990099 #999999 #0099cc #00cc33 #66ff00 #ffff00 #cccc00 #66cc00 #00cccc]]></option>
+        <option id="color.recent">
+            <![CDATA[#cc0000 #990099 #999999 #0099cc #00cc33 #66ff00 #ffff00 #cccc00 #66cc00 #00cccc]]>
+        </option>
     </view>
     <view id="resource-table">
         <field id="0" name="名前" width="210" order="0"/>
@@ -38,18 +37,24 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="20" uid="a972137783934267ae13a958c8e86770" name="プロトタイプ" color="#ffff00" meeting="false" start="2024-06-12" duration="9" complete="0" expand="true"/>
-        <task id="21" uid="f2fca626f52148a896ab48a15a3591ee" name="アルファ" color="#00cc33" meeting="false" start="2024-06-21" duration="15" complete="0" expand="true"/>
-        <task id="22" uid="4dec47c72e514a31af561436d1371a2f" name="ベータ" color="#0099cc" meeting="false" start="2024-07-06" duration="7" complete="0" expand="true"/>
-        <task id="23" uid="21be24a21ff9483c86e583ded5f0e26b" name="マスター" color="#999999" meeting="false" start="2024-07-13" duration="9" complete="0" expand="true"/>
-        <task id="24" uid="033a5d60cb7c4113a0daf8ce4b5af92f" name="リファクタ" color="#990099" meeting="false" start="2024-07-22" duration="5" complete="0" expand="true"/>
-        <task id="25" uid="3f18ac2f6f504e5db540cccc9e58f37a" name="完全提出日" color="#cc0000" meeting="false" start="2024-07-29" duration="1" complete="0" expand="true"/>
-        <task id="26" uid="f91d17801fe04c158ced357febc78f1a" name="仮UIの配置" meeting="false" start="2024-06-12" duration="1" complete="0" expand="true"/>
-        <task id="27" uid="eb55606fd82d4b76a41cdaed01d1958f" name="コントローラでシーン遷移" meeting="false" start="2024-06-12" duration="1" complete="0" expand="true"/>
-        <task id="28" uid="129924b416fa41e09af1220742856e64" name="タイトル→ゲームプレイ" meeting="false" start="2024-06-12" duration="1" complete="0" expand="true"/>
-        <task id="29" uid="c379be8d29c94f958d9434bb9502ffa8" name="ゲームプレイ→勝利" meeting="false" start="2024-06-12" duration="1" complete="0" expand="true"/>
-        <task id="30" uid="f56d4f61dc36454c8f1f13d7345e6603" name="セレクト→敗北" meeting="false" start="2024-06-12" duration="1" complete="0" expand="true"/>
-        <task id="31" uid="e4002c089cb64ff19e9ca4e876b79d00" name="勝利→ゲームプレイ" meeting="false" start="2024-06-12" duration="1" complete="0" expand="true"/>
+        <task id="20" name="プロトタイプ" color="#ffff00" meeting="false" start="2024-06-12" duration="9" complete="0" expand="true">
+            <task id="26" name="仮UIの配置" meeting="false" start="2024-06-12" duration="1" complete="0" expand="true"/>
+            <task id="27" name="コントローラでシーン遷移" meeting="false" start="2024-06-12" duration="2" complete="0" expand="true"/>
+            <task id="28" name="タイトル→ゲームプレイ" meeting="false" start="2024-06-13" duration="2" complete="0" expand="true"/>
+            <task id="29" name="ゲームプレイ→勝利" meeting="false" start="2024-06-13" duration="2" complete="0" expand="true"/>
+            <task id="30" name="ゲームプレイ→敗北" color="#8cb6ce" meeting="false" start="2024-06-13" duration="2" complete="0" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
+            <task id="31" name="勝利→ゲームプレイ" color="#8cb6ce" meeting="false" start="2024-06-15" duration="2" complete="0" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
+            <task id="32" name="勝利→タイトル" color="#8cb6ce" meeting="false" start="2024-06-15" duration="2" complete="0" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
+            <task id="33" name="敗北→ゲームプレイ" color="#8cb6ce" meeting="false" start="2024-06-15" duration="2" complete="0" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
+            <task id="34" name="敗北→タイトル" color="#8cb6ce" meeting="false" start="2024-06-15" duration="2" complete="0" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
+            <task id="35" name="ゲームプレイにステージ" color="#8cb6ce" meeting="false" start="2024-06-17" duration="2" complete="0" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
+            <task id="36" name="タイマー" color="#8cb6ce" meeting="false" start="2024-06-19" duration="2" complete="0" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="21" name="アルファ" color="#00cc33" meeting="false" start="2024-06-21" duration="15" complete="0" expand="true"/>
+        <task id="22" name="ベータ" color="#0099cc" meeting="false" start="2024-07-06" duration="7" complete="0" expand="true"/>
+        <task id="23" name="マスター" color="#999999" meeting="false" start="2024-07-13" duration="9" complete="0" expand="true"/>
+        <task id="24" name="リファクタ" color="#990099" meeting="false" start="2024-07-22" duration="5" complete="0" expand="true"/>
+        <task id="25" name="完全提出日" color="#cc0000" meeting="false" start="2024-07-29" duration="1" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
