@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="SwordTrial_Hamamatsu" company="" webLink="http://" view-date="2024-06-12" view-index="0" gantt-divider-location="363" resource-divider-location="300" version="3.3.3309" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="SwordTrial_Hamamatsu" company="" webLink="http://" view-date="2024-06-12" view-index="0" gantt-divider-location="348" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="名前" width="196" order="0"/>
-        <field id="tpd4" name="開始日" width="74" order="1"/>
-        <field id="tpd5" name="終了日" width="77" order="2"/>
+        <field id="tpd3" name="名前" width="188" order="0"/>
+        <field id="tpd4" name="開始日" width="71" order="1"/>
+        <field id="tpd5" name="終了日" width="74" order="2"/>
         <option id="filter.completedTasks" value="false"/>
-        <option id="filter.dueTodayTasks" value="false"/>
-        <option id="filter.overdueTasks" value="false"/>
-        <option id="filter.inProgressTodayTasks" value="false"/>
-        <option id="color.recent"><![CDATA[#cc0000 #990099 #999999 #0099cc #00cc33 #66ff00 #ffff00 #cccc00 #66cc00 #00cccc]]></option>
+        <option id="color.recent">
+            <![CDATA[#cc0000 #990099 #999999 #0099cc #00cc33 #66ff00 #ffff00 #cccc00 #66cc00 #00cccc]]>
+        </option>
     </view>
     <view id="resource-table">
         <field id="0" name="名前" width="210" order="0"/>
@@ -38,25 +37,25 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="20" uid="6c8e04591f2e4b5baab568f77577efff" name="プロトタイプ" color="#ffff00" meeting="false" start="2024-06-12" duration="9" complete="90" expand="true">
-            <task id="26" uid="cbea20823b73416ba1e9c0ac37ab1080" name="仮UIの配置" color="#8cb6ce" meeting="false" start="2024-06-12" duration="2" complete="100" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
-            <task id="27" uid="718c4de251684c5b93105253409aba5c" name="コントローラでシーン遷移" color="#000000" meeting="false" start="2024-06-13" duration="4" complete="100" thirdDate="2024-06-13" thirdDate-constraint="0" expand="true">
-                <task id="28" uid="1ff50243f7b44215a60ebe76208d92cf" name="タイトル→ゲームプレイ" meeting="false" start="2024-06-13" duration="2" complete="100" expand="true"/>
-                <task id="29" uid="a79e68d13c5342c3bb78ed98664d5399" name="ゲームプレイ→勝利" color="#8cb6ce" meeting="false" start="2024-06-13" duration="2" complete="100" thirdDate="2024-06-13" thirdDate-constraint="0" expand="true"/>
-                <task id="30" uid="1b51e439a2f34575ba6fc5834db6609f" name="ゲームプレイ→敗北" color="#8cb6ce" meeting="false" start="2024-06-13" duration="2" complete="100" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
-                <task id="31" uid="507bcc223e244d30b152b1cacc4ce652" name="勝利→ゲームプレイ" color="#8cb6ce" meeting="false" start="2024-06-15" duration="2" complete="100" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
-                <task id="32" uid="44aa6c320c23432baa648192f5223eac" name="勝利→タイトル" color="#8cb6ce" meeting="false" start="2024-06-15" duration="2" complete="100" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
-                <task id="33" uid="db6805dcabc94d7ab68b62ee92035c1e" name="敗北→ゲームプレイ" color="#8cb6ce" meeting="false" start="2024-06-15" duration="2" complete="100" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
-                <task id="34" uid="8a15478f778a4d8081b2502b74848dd5" name="敗北→タイトル" color="#8cb6ce" meeting="false" start="2024-06-15" duration="2" complete="100" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
+        <task id="20" name="プロトタイプ" color="#ffff00" meeting="false" start="2024-06-12" duration="9" complete="90" expand="true">
+            <task id="26" name="仮UIの配置" color="#8cb6ce" meeting="false" start="2024-06-12" duration="2" complete="100" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
+            <task id="27" name="コントローラでシーン遷移" color="#000000" meeting="false" start="2024-06-13" duration="4" complete="100" thirdDate="2024-06-13" thirdDate-constraint="0" expand="true">
+                <task id="28" name="タイトル→ゲームプレイ" meeting="false" start="2024-06-13" duration="2" complete="100" expand="true"/>
+                <task id="29" name="ゲームプレイ→勝利" color="#8cb6ce" meeting="false" start="2024-06-13" duration="2" complete="100" thirdDate="2024-06-13" thirdDate-constraint="0" expand="true"/>
+                <task id="30" name="ゲームプレイ→敗北" color="#8cb6ce" meeting="false" start="2024-06-13" duration="2" complete="100" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
+                <task id="31" name="勝利→ゲームプレイ" color="#8cb6ce" meeting="false" start="2024-06-15" duration="2" complete="100" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
+                <task id="32" name="勝利→タイトル" color="#8cb6ce" meeting="false" start="2024-06-15" duration="2" complete="100" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
+                <task id="33" name="敗北→ゲームプレイ" color="#8cb6ce" meeting="false" start="2024-06-15" duration="2" complete="100" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
+                <task id="34" name="敗北→タイトル" color="#8cb6ce" meeting="false" start="2024-06-15" duration="2" complete="100" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="35" uid="4512a9bb972c4e12a92ec6592462f9f4" name="ゲームプレイにステージ" color="#8cb6ce" meeting="false" start="2024-06-17" duration="2" complete="0" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
-            <task id="36" uid="dbb1e44d109647bebb492a11b15e5d77" name="タイマー" color="#8cb6ce" meeting="false" start="2024-06-19" duration="2" complete="100" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
+            <task id="35" name="ゲームプレイにステージ" color="#8cb6ce" meeting="false" start="2024-06-17" duration="2" complete="0" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
+            <task id="36" name="タイマー" color="#8cb6ce" meeting="false" start="2024-06-19" duration="2" complete="100" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="21" uid="6ecaa93ef4014d6e89aa44f6bfe308c4" name="アルファ" color="#00cc33" meeting="false" start="2024-06-21" duration="15" complete="0" expand="true"/>
-        <task id="22" uid="887e583d52f2415a8c5ba972497f3366" name="ベータ" color="#0099cc" meeting="false" start="2024-07-06" duration="7" complete="0" expand="true"/>
-        <task id="23" uid="9653cc326ef94e308fa569d7d769f75b" name="マスター" color="#999999" meeting="false" start="2024-07-13" duration="9" complete="0" expand="true"/>
-        <task id="24" uid="b44e1cd8f829475b844ea29f289ee103" name="リファクタ" color="#990099" meeting="false" start="2024-07-22" duration="5" complete="0" expand="true"/>
-        <task id="25" uid="3bf68520abce41d49e707cbef3d44f07" name="完全提出日" color="#cc0000" meeting="false" start="2024-07-29" duration="1" complete="0" expand="true"/>
+        <task id="21" name="アルファ" color="#00cc33" meeting="false" start="2024-06-21" duration="15" complete="0" expand="true"/>
+        <task id="22" name="ベータ" color="#0099cc" meeting="false" start="2024-07-06" duration="7" complete="0" expand="true"/>
+        <task id="23" name="マスター" color="#999999" meeting="false" start="2024-07-13" duration="9" complete="0" expand="true"/>
+        <task id="24" name="リファクタ" color="#990099" meeting="false" start="2024-07-22" duration="5" complete="0" expand="true"/>
+        <task id="25" name="完全提出日" color="#cc0000" meeting="false" start="2024-07-29" duration="1" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
