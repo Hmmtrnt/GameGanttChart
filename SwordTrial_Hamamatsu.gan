@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="SwordTrial_Hamamatsu" company="" webLink="http://" view-date="2024-06-12" view-index="0" gantt-divider-location="348" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="SwordTrial_Hamamatsu" company="" webLink="http://" view-date="2024-06-12" view-index="0" gantt-divider-location="334" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="名前" width="188" order="0"/>
-        <field id="tpd4" name="開始日" width="71" order="1"/>
-        <field id="tpd5" name="終了日" width="74" order="2"/>
+        <field id="tpd3" name="名前" width="180" order="0"/>
+        <field id="tpd4" name="開始日" width="68" order="1"/>
+        <field id="tpd5" name="終了日" width="71" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="color.recent">
             <![CDATA[#cc0000 #990099 #999999 #0099cc #00cc33 #66ff00 #ffff00 #cccc00 #66cc00 #00cccc]]>
