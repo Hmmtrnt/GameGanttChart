@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="SwordTrial_Hamamatsu" company="" webLink="http://" view-date="2024-06-28" view-index="0" gantt-divider-location="269" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="SwordTrial_Hamamatsu" company="" webLink="http://" view-date="2024-07-11" view-index="0" gantt-divider-location="255" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="名前" width="142" order="0"/>
-        <field id="tpd4" name="開始日" width="54" order="1"/>
-        <field id="tpd5" name="終了日" width="57" order="2"/>
+        <field id="tpd3" name="名前" width="134" order="0"/>
+        <field id="tpd4" name="開始日" width="51" order="1"/>
+        <field id="tpd5" name="終了日" width="54" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="color.recent">
             <![CDATA[#cc0000 #990099 #999999 #0099cc #00cc33 #66ff00 #ffff00 #cccc00 #66cc00 #00cccc]]>
@@ -51,16 +51,26 @@
             <task id="35" name="ゲームプレイにステージ" color="#8cb6ce" meeting="false" start="2024-06-17" duration="2" complete="0" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
             <task id="36" name="タイマー" color="#8cb6ce" meeting="false" start="2024-06-19" duration="2" complete="100" thirdDate="2024-06-12" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="21" name="アルファ" color="#00cc33" meeting="false" start="2024-06-27" duration="14" complete="82" thirdDate="2024-06-27" thirdDate-constraint="0" expand="true">
+        <task id="21" name="アルファ" color="#00cc33" meeting="false" start="2024-06-27" duration="14" complete="65" thirdDate="2024-06-27" thirdDate-constraint="0" expand="true">
             <task id="37" name="シーン遷移" meeting="false" start="2024-06-27" duration="14" complete="100" expand="true"/>
             <task id="38" name="ステージ配置" meeting="false" start="2024-07-07" duration="4" complete="100" expand="true">
                 <task id="40" name="ステージのアセット配置" color="#8cb6ce" meeting="false" start="2024-07-07" duration="4" complete="100" thirdDate="2024-07-01" thirdDate-constraint="0" expand="true"/>
                 <task id="42" name="プレイヤー配置" color="#8cb6ce" meeting="false" start="2024-07-07" duration="4" complete="100" thirdDate="2024-06-26" thirdDate-constraint="0" expand="true"/>
                 <task id="43" name="エネミー配置" color="#8cb6ce" meeting="false" start="2024-07-07" duration="4" complete="100" thirdDate="2024-07-07" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="39" name="アセット探し" meeting="false" start="2024-06-27" duration="14" complete="50" expand="true"/>
+            <task id="39" name="アセット探し" meeting="false" start="2024-06-27" duration="14" complete="0" expand="true"/>
         </task>
-        <task id="22" name="ベータ" color="#0099cc" meeting="false" start="2024-07-11" duration="7" complete="0" expand="true"/>
+        <task id="22" name="ベータ" color="#0099cc" meeting="false" start="2024-07-11" duration="7" complete="0" expand="true">
+            <task id="48" name="進捗確認" color="#8cb6ce" meeting="false" start="2024-07-11" duration="7" complete="0" thirdDate="2024-07-11" thirdDate-constraint="0" expand="true"/>
+            <task id="44" name="アセット探し" color="#8cb6ce" meeting="false" start="2024-07-11" duration="7" complete="0" thirdDate="2024-07-11" thirdDate-constraint="0" expand="true"/>
+            <task id="45" name="メインシーン配置" color="#8cb6ce" meeting="false" start="2024-07-11" duration="1" complete="0" thirdDate="2024-07-11" thirdDate-constraint="0" expand="true"/>
+            <task id="47" name="シーン遷移の条件追加" color="#8cb6ce" meeting="false" start="2024-07-11" duration="1" complete="0" thirdDate="2024-07-11" thirdDate-constraint="0" expand="true"/>
+            <task id="46" name="リザルト画面の演出" color="#8cb6ce" meeting="false" start="2024-07-11" duration="1" complete="0" thirdDate="2024-07-11" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[敗北か勝利かまだ決まっていない]]>
+                </notes>
+            </task>
+        </task>
         <task id="23" name="マスター" color="#999999" meeting="false" start="2024-07-18" duration="8" complete="0" expand="true"/>
         <task id="25" name="完全提出日" color="#cc0000" meeting="false" start="2024-07-29" duration="1" complete="0" expand="true"/>
     </tasks>
